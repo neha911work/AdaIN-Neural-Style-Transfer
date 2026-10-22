@@ -1,0 +1,35 @@
+
+# Python environments and cache
+.venv/
+venv/
+myenv/
+__pycache__/
+*.py[cod]
+
+# IDE settings
+.vscode/
+
+# Training datasets
+content_data/
+style_data/
+test2017/
+train_2/
+
+# Dataset and training archives
+*.zip
+
+# Training outputs (keep local)
+nst_full_trained/
+
+# Notebook cache
+.ipynb_checkpoints/
+
+# Secrets
+.env
+
+# Generated application uploads
+static/uploads/*
+!static/uploads/.gitkeep
+
+# Experimental checkpoints and outputs
+experiment/
